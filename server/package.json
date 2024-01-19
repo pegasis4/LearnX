@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "studynotion-backend",
 	"main": "index.js",
+	"overrides": {
+		"@svgr/webpack": "$@svgr/webpack"
+	  },
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
